@@ -11,8 +11,8 @@ const ThemeToggle = () => {
 
   useEffect(() => {
     translateX.value = withSpring(isDark ? 46 : 3.5, {
-      damping: 12,
-      stiffness: 100,
+      damping: 15,
+      stiffness: 150,
     });
   }, [isDark]);
 
